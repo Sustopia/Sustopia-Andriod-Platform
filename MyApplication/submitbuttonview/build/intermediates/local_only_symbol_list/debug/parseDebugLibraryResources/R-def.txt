@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+attr? buttonColor
+attr? buttonText
+attr? buttonTextSize
+attr? failedColor
+attr? progressStyle
+attr? succeedColor
+id loading
+id progress
+styleable SubmitButton buttonText buttonColor succeedColor failedColor buttonTextSize progressStyle

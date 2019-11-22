@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SubmitButton">
+        <attr format="string" name="buttonText"/>
+        <attr format="color" name="buttonColor"/>
+        <attr format="color" name="succeedColor"/>
+        <attr format="color" name="failedColor"/>
+        <attr format="dimension" name="buttonTextSize"/>
+        <attr format="enum" name="progressStyle">
+            <enum name="loading" value="0"/>
+            <enum name="progress" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

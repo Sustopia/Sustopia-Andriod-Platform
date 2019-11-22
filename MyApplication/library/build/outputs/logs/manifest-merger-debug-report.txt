@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:70-99
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:1-7:12
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:3:5-5:19
+	android:label
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:3:45-77
+	android:allowBackup
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml:3:18-44
+uses-sdk
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		ADDED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
+		INJECTED from E:\Program Files (x86)\MyApplication\library\src\main\AndroidManifest.xml
