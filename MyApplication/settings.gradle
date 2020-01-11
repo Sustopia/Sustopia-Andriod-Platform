@@ -1,2 +1,2 @@
-include ':app', ':library', ':submitbuttonview'
+include ':app', ':library', ':submitbuttonview', ':TextSurface-master', ':htextview-scale', ':htextview-base', ':JPTabBar'
 rootProject.name='My Application'
