@@ -37,15 +37,15 @@ public class SecondActivity extends AppCompatActivity {
 
     private OnTabSelectListener selectListener;
 
-    private OwnCourse ownCourse = new OwnCourse();
+    private OwnCourse ownCourse;
 
-    private AllCourse allCourse = new AllCourse();
+    private AllCourse allCourse;
 
-    private Lecture lecture = new Lecture();
+    private Lecture lecture;
 
-    private Ref ref = new Ref();
+    private Ref ref;
 
-    private GPA gpa = new GPA();
+    private GPA gpa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +68,11 @@ public class SecondActivity extends AppCompatActivity {
             }
         };
         tabbar.setTabListener(selectListener);
+        ownCourse = new OwnCourse();
+        allCourse = new AllCourse(tabbar);
+        lecture = new Lecture();
+        ref = new Ref();
+        gpa = new GPA();
         list.add(ownCourse);
         list.add(allCourse);
         list.add(lecture);
@@ -101,5 +106,9 @@ public class SecondActivity extends AppCompatActivity {
             });
         }
 //        tabbar.setSelectTab(0);
+    }
+
+    public JPTabBar getTabbar(){
+        return tabbar;
     }
 }
