@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weeks">
+        <item>星期</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="times">
+        <item>时段</item>
+        <item>08:00-09:50</item>
+        <item>10:20-12:10</item>
+        <item>14:00-15:50</item>
+        <item>16:20-18:10</item>
+        <item>19:00-20:50</item>
+        <item>21:20-</item>
+    </string-array>
+</resources>

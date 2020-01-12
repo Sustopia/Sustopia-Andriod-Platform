@@ -30,4 +30,5 @@ dependencies {
     implementation project(path: ':submitbuttonview')
     implementation project(path: ':JPTabBar')
     implementation project(path: ':searchablespinnerlibrary')
+    implementation 'org.jetbrains:annotations-java5:15.0'
 }

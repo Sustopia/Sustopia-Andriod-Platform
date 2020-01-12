@@ -11,14 +11,17 @@ import androidx.viewpager.widget.ViewPager;
 
 import java.util.*;
 
+import com.example.myapplication.viewPagers.AllCourse;
+import com.example.myapplication.viewPagers.GPA;
+import com.example.myapplication.viewPagers.Lecture;
+import com.example.myapplication.viewPagers.OwnCourse;
+import com.example.myapplication.viewPagers.Ref;
 import com.jpeng.jptabbar.BadgeDismissListener;
 import com.jpeng.jptabbar.JPTabBar;
 import com.jpeng.jptabbar.OnTabSelectListener;
 import com.jpeng.jptabbar.anno.NorIcons;
 import com.jpeng.jptabbar.anno.SeleIcons;
 import com.jpeng.jptabbar.anno.Titles;
-
-import java.lang.reflect.Array;
 
 public class SecondActivity extends AppCompatActivity {
 //    private ScaleTextView mTxtWelcome;
@@ -59,7 +62,7 @@ public class SecondActivity extends AppCompatActivity {
         selectListener = new OnTabSelectListener() {
             @Override
             public void onTabSelect(int index) {
-                Toast.makeText(SecondActivity.this,"choose the tab index is "+index,Toast.LENGTH_SHORT).show();
+//                Toast.makeText(SecondActivity.this,"choose the tab index is "+index,Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -70,8 +73,8 @@ public class SecondActivity extends AppCompatActivity {
         tabbar.setTabListener(selectListener);
         ownCourse = new OwnCourse();
         allCourse = new AllCourse(tabbar);
-        lecture = new Lecture();
-        ref = new Ref();
+        lecture = new Lecture(tabbar);
+        ref = new Ref(tabbar);
         gpa = new GPA();
         list.add(ownCourse);
         list.add(allCourse);
