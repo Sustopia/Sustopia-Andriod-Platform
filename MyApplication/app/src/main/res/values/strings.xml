@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Welcome">Welcome to Sustopia!</string>
+    <string name="own">我的课表</string>
+    <string name="all">全校课表</string>
+    <string name="headOwnCourseInfo">我的课表</string>
+    <string name="headAllCourseInfo">全校课程信息</string>
+    <string name="headLectureInfo">讲座信息</string>
+    <string name="headRefInfo">选课参考信息</string>
+    <string name="headGpaInfo">绩点/分数查询</string>
+    <string name="lec">讲座</string>
+    <string name="ref">选课参考</string>
+    <string name="gpa">成绩查询</string>
+    <string name="addToTerm">加入学期</string>
+    <string name="addToWeek">加入本周</string>
+</resources>
