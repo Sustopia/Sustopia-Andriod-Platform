@@ -6,12 +6,12 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\deity realm\Desktop\MyApplication\submitbuttonview\src\main\AndroidManifest.xml
+8-->C:\Users\deity realm\Sustopia\Sustopia-Andriod-Platform\MyApplication\submitbuttonview\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\deity realm\Desktop\MyApplication\submitbuttonview\src\main\AndroidManifest.xml
+9-->C:\Users\deity realm\Sustopia\Sustopia-Andriod-Platform\MyApplication\submitbuttonview\src\main\AndroidManifest.xml
 10
 11    <application>
-11-->C:\Users\deity realm\Desktop\MyApplication\submitbuttonview\src\main\AndroidManifest.xml:5:5-7:19
+11-->C:\Users\deity realm\Sustopia\Sustopia-Andriod-Platform\MyApplication\submitbuttonview\src\main\AndroidManifest.xml:5:5-7:19
 12    </application>
 13
 14</manifest>
