@@ -3,8 +3,6 @@ package com.example.myapplication.viewPagers;
 import android.view.View;
 import android.widget.AdapterView;
 
-import androidx.fragment.app.Fragment;
-
 import com.example.myapplication.R;
 import com.example.myapplication.adapters.AbstractListItemAdapter;
 import com.example.myapplication.adapters.RefInfoAdapter;
@@ -15,9 +13,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Ref extends AbstractSearchableViewPager<RefInfo>{
-    public Ref(JPTabBar tabbar) {
-        super(tabbar);
-    }
 
     @Override
     protected ArrayList<RefInfo> getInfos() {
@@ -40,27 +35,17 @@ public class Ref extends AbstractSearchableViewPager<RefInfo>{
     }
 
     @Override
-    protected View.OnClickListener getHeadPortraitOnClickListener() {
-        return new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        };//TODO
-    }
-
-    @Override
     protected String getQueryHint() {
         return "输入课程名/课程号";
     }
 
     @Override
-    protected int getHeadText() {
-        return R.string.allRefInfo;
+    public int getHeadText() {
+        return R.string.headRefInfo;
     }
 
     @Override
-    protected int getHeadFrameBGC() {
+    public int getHeadFrameBGC() {
         return GOLD_COLOR;
     }
 

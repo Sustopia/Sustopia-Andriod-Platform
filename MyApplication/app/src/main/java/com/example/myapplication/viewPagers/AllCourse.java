@@ -19,9 +19,6 @@ import java.util.Arrays;
 
 public class AllCourse extends AbstractSearchableViewPager<ClassInfo> {
 
-    public AllCourse(JPTabBar tabbar){
-        super(tabbar);
-    }
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
         View layout = inflater.inflate(R.layout.searchable_view_pager, null);
@@ -61,15 +58,6 @@ public class AllCourse extends AbstractSearchableViewPager<ClassInfo> {
         };
     }
 
-    @Override
-    protected View.OnClickListener getHeadPortraitOnClickListener() {
-        return new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        };//TODO
-    }
 
     @Override
     protected String getQueryHint() {
@@ -77,12 +65,12 @@ public class AllCourse extends AbstractSearchableViewPager<ClassInfo> {
     }
 
     @Override
-    protected int getHeadText() {
-        return R.string.allCourseInfo;
+    public int getHeadText() {
+        return R.string.headAllCourseInfo;
     }
 
     @Override
-    protected int getHeadFrameBGC() {
+    public int getHeadFrameBGC() {
         return BOHE_COLOR;
     }
 

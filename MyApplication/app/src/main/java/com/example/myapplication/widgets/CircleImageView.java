@@ -75,7 +75,7 @@ public class CircleImageView extends AppCompatImageView {
     }
 
     private void drawCircleBitmapByXfermode(Canvas canvas,Bitmap bitmap){
-        final int sc = canvas.saveLayer(0,0,getWidth(),getHeight(),null,Canvas.ALL_SAVE_FLAG);
+        final int sc = canvas.saveLayer(0,0,getWidth(),getHeight(),null);
         //绘制dst层
         canvas.drawCircle(mSize / 2,mSize / 2,mSize / 2,mPaint);
         //设置图层混合模式为SRC_IN

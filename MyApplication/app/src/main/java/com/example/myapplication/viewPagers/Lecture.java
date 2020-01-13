@@ -14,9 +14,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Lecture extends AbstractSearchableViewPager<LectureInfo> {
-    public Lecture(JPTabBar tabbar) {
-        super(tabbar);
-    }
 
     //TODO 通信获取课程
     @Override
@@ -48,27 +45,17 @@ public class Lecture extends AbstractSearchableViewPager<LectureInfo> {
     }
 
     @Override
-    protected View.OnClickListener getHeadPortraitOnClickListener() {
-        return new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        };//TODO
-    }
-
-    @Override
     protected String getQueryHint() {
         return "输入讲座所属系/讲座名";
     }
 
     @Override
-    protected int getHeadText() {
-        return R.string.allLectureInfo;
+    public int getHeadText() {
+        return R.string.headLectureInfo;
     }
 
     @Override
-    protected int getHeadFrameBGC() {
+    public int getHeadFrameBGC() {
         return SKY_COLOR;
     }
 
